@@ -1,7 +1,7 @@
 let
   hatter = builtins.fetchTarball {
-    url = "https://github.com/iphydf/hatter/archive/16576ebb1e77cb089b63d17d208bc085f390da6d.tar.gz";
-    sha256 = "0y5l83hqw5343zay2j3nvv8b6zjidscdg1smlbmadb60h0rvh1xg";
+    url = "https://github.com/iphydf/hatter/archive/7de711536a06549402b17a2d22d2f40b14fc26f2.tar.gz";
+    sha256 = "1ykchpx9v3manaarnc5ggf07kh0rjm42gakb4iirs7kw0w7whlax";
   };
   ci = import "${hatter}/nix/ci.nix" { };
 in
